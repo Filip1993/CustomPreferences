@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="nickname"
+        android:title="Nickname"
+        android:summary="Please insert nickname"/>
+
+    <CheckBoxPreference
+        android:key="notifications"
+        android:title="Notifications"
+        android:summary="Want notifications?"
+        android:defaultValue="false"/>
+
+    <ListPreference
+        android:key="color"
+        android:title="Favorite color"
+        android:summary="Your favorite color"
+        android:entries="@array/colorArray"
+        android:entryValues="@array/colorValues"
+        android:defaultValue="1"/>
+
+</PreferenceScreen>
